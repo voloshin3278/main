@@ -12,7 +12,7 @@ fun main() {
         val guess = readLine()?.toIntOrNull()
 
         if (guess == null || guess !in 1..100) {
-            println("Пожалуйста, введите число от 1 до 100")
+            println("Пожалуйста, введите число от 1 до 1000")
             continue
         }
 
