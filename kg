@@ -23,7 +23,7 @@ fun main() {
                 println("Поздравляем Вы угадали число $randomNumber за $attempts попыток")
                 break
             }
-            guess < randomNumber -> println("Загаданное число больше. Попробуйте еще раз.")
+            guess < randomNumber -> println("Загаданное число больше. Попробуйте еще раз")
             else -> println("Загаданное число меньше. Попробуйте еще раз")
         }
     }
