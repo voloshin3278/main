@@ -19,6 +19,7 @@ fun main() {
         attempts++
 
 
+
         when {
             guess == randomNumber -> {
                 println("Поздравляем Вы угадали число $randomNumber за $attempts попыток")
